@@ -26,6 +26,7 @@ def get_stdin(message)
   STDIN.gets.chomp
 end
 
+# task :default => [:_posts]
 # Usage: rake post title="Post Name"
 desc "Begin a new post in #{CONFIG['post']}"
 task :post do

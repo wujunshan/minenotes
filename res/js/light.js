@@ -52,7 +52,6 @@ $(document).ready(function() {
     });
     $(".sidebar").backstretch(images, {
         fade: 1500,
-        duration: 15000,
+        duration: 10000,
     })
 });
-
